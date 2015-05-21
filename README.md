@@ -1,3 +1,7 @@
 ## Usage
-npm install  
-sudo npm install -g gulp  
+
+Install node npm  
+`npm install`  
+
+Install gulp  
+`npm install gulp`   
