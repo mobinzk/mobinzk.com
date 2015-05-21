@@ -10,6 +10,6 @@
   "license": "ISC",
   "devDependencies": {
     "gulp-sass": "^1.0.5",
-    "node-reset-scss": "^1.0.1"
+    "gulp-autoprefixer": "^2.3.0"
   }
 }
