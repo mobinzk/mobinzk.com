@@ -2,17 +2,16 @@
   "name": "mobinzk.com",
   "version": "1.0.0",
   "description": "Mobin Zadeh Kochak personal web page",
-  "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm run sass & npm run autoprefixer",
+    "sass": "node-sass --sourcemap=none --output-style compressed -o css sass",
+    "autoprefixer": "postcss -use autoprefixer --autoprefixer.browsers 'last 5 versions' -r css/*"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "gulp-sass": "^1.0.5",
-    "gulp-autoprefixer": "^2.3.0"
-  },
-  "dependencies": {
-    "gulp": "^4.0.0"
+    "autoprefixer": "^7.2.6",
+    "node-sass": "^4.14.1",
+    "postcss-cli": "^7.1.1"
   }
 }
