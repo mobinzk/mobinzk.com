@@ -3,5 +3,8 @@
 Install node npm  
 `npm install`  
 
-Install gulp  
-`npm install gulp`   
+Dev:
+`npm run dev`
+
+Prod:
+`npm run dist`
