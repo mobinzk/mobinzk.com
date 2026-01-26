@@ -5,7 +5,7 @@
 }
 
 body {
-	background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+	background: linear-gradient(135deg, #3b82f6 0%, #1e40af 100%);
 	min-height: 100vh;
 	font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
@@ -27,7 +27,7 @@ strong {
 	min-height: auto;
 
 	header {
-		background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+		background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
 		text-align: center;
 		padding: 40px 30px 30px;
 		color: white;
@@ -109,12 +109,12 @@ strong {
 				margin-bottom: 8px;
 
 				a {
-					color: #6366f1;
+					color: #2563eb;
 					text-decoration: none;
 					font-weight: 500;
 
 					&:hover {
-						color: #4f46e5;
+						color: #1d4ed8;
 					}
 				}
 			}
@@ -153,7 +153,7 @@ strong {
 
 					&:before {
 						content: '\2022';
-						color: #6366f1;
+						color: #2563eb;
 						position: absolute;
 						left: 0;
 						top: 0;
@@ -200,9 +200,9 @@ strong {
 				transition: all 0.2s ease;
 
 				&:hover {
-					background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+					background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
 					color: #fff;
-					border-color: #6366f1;
+					border-color: #2563eb;
 					transform: translateY(-1px);
 				}
 			}
@@ -243,9 +243,9 @@ strong {
 					transition: all 0.2s ease;
 
 					&:hover {
-						background: #6366f1;
+						background: #2563eb;
 						color: #fff;
-						border-color: #6366f1;
+						border-color: #2563eb;
 						transform: translateY(-1px);
 					}
 				}
